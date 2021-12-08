@@ -1,0 +1,303 @@
+.profileWrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 1em;
+}
+
+.profileSection {
+    background-color: white;
+    border-radius: .5em;
+    width: auto;
+    padding: 1em;
+    border: 1px solid #E0E0E3;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.profileAvatarImg {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: .3em;
+    margin-bottom: 1em;
+}
+
+
+.profileBtnEditAvatar {
+    background-color: #E5EBF1;
+    color: #798FA4;
+    border-radius: .3em;
+    border: none;
+    padding: .4em 5.7em;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.inputFile {
+    display: none;
+}
+
+.profileBtnEditAvatar:hover {
+    cursor: pointer;
+}
+
+.profileBtnEditAvatar:focus {
+    outline: none;
+    opacity: .5;
+}
+
+.headInfo {
+    margin: .1em 1em 0 1em;
+    position: relative;
+}
+
+.fio_status h1 {
+    font-weight: 500;
+    color: black;
+    font-size: 2em;
+}
+
+.fio_status h2 {
+    color: black;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-style: italic;
+    display: inline-block;
+}
+
+.fio_status h2:hover {
+    cursor: pointer;
+}
+
+.fio_status:after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 1px;
+    margin: 1em auto;
+    background-color: #ECEDF0;
+}
+
+.lookingForAJob {
+    color: black;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.lookingForAJob span:nth-child(1) {
+    margin-right: .5em;
+}
+
+.lookingForAJob i {
+    font-size: 1.5em;
+}
+
+.fio_status:after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 1px;
+    margin: 1.5em auto;
+    background-color: #ECEDF0;
+}
+
+.btnEditProfilePosition {
+    position: absolute;
+    top: .5em;
+    right: .5em;
+    z-index: 2;
+}
+
+.btnEditProfileInfo {
+    display: block;
+    border: none;
+    background-color: initial;
+    margin: 1em auto 0;
+}
+
+.btnEditProfileInfo:hover {
+    cursor: pointer;
+}
+
+.profileInfo {
+    margin: auto .6em;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.profileInfo th {
+    font-weight: normal;
+}
+
+.profileInfo .first {
+    color: #798FA4;
+    padding-right: 1em;
+    font-size: 1em;
+    margin-right: 0;
+}
+
+.profileInfo .second {
+    color: #4D77A6;
+    font-size: 1em;
+    margin-right: 0;
+}
+
+.addPostContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.addPostFormContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.addPostFormContainer textarea {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    border: none;
+    color: #798FA4;
+    letter-spacing: .05em;
+    width: 100%;
+    max-height: 10em;
+    resize: vertical;
+}
+
+.addPostFormContainer button {
+    border: none;
+    color: #798FA4;
+    font-weight: bold;
+    width: 8em;
+    height: 2em;
+    border-radius: .5em;
+    background-color: #E5EBF1;
+}
+
+.addPostContainer button:hover {
+    cursor: pointer;
+}
+
+.profileFriendsImg {
+
+}
+
+.addPostFormContainer textarea:focus {
+    outline: none;
+}
+
+.addPostFormContainer button:focus {
+    outline: none;
+    opacity: 0.5;
+}
+
+.AddPostAvatarImg {
+    display: inline-block;
+    border-radius: 50%;
+    width: 3.5em;
+    height: 3.5em;
+}
+
+.postAvatarImg {
+    display: inline-block;
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+}
+
+.headPost {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.marLeftFIOAndData {
+    margin-left: 1em;
+    color: #798FA4;
+    font-size: 1.3em;
+}
+
+.marLeftFIOAndData p {
+    margin: 0;
+    color: #4D77A6;
+    font-weight: bold;
+}
+
+.bodyPost {
+    font-size: 1.6em;
+}
+
+.profileEditForm span {
+    font-size: 1.5em;
+    margin-right: .5em;
+}
+
+.textareaSpanTop {
+    display: flex;
+    margin-bottom: .5em;
+}
+
+.textareaSpanTop textarea {
+    max-width: 20em;
+    max-height: 20em;
+}
+
+.editFormInput {
+    border: none;
+    border-bottom: 2px solid #4D77A6;
+    font-style: italic;
+}
+
+.editFormInput:focus {
+    outline: none;
+}
+
+.profileFriendsWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
+.profileFriendsWrapper img {
+    display: inline-block;
+    object-fit: cover;
+    width: 5em;
+    height: 5em;
+    margin-bottom: 0.5em;
+    border-radius: 50%;
+}
+
+.linkInFriendsPage {
+    font-size: 1.2em;
+    margin: 0 auto;
+    font-weight: 700;
+    color: #000;
+}
+
+.userFriendSection {
+    margin-top: 1em;
+}
+
+.userFriendSection p {
+    color: #4D77A6;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 5em;
+}
+
+.btnDeletePostPosition {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}

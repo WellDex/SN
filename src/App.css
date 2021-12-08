@@ -1,0 +1,14 @@
+.appWrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.appWrapperContent {
+    width: 79.6em;
+}
+
+.appContent {
+    margin: 0 auto;
+    width: 97.6em;
+}

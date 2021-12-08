@@ -1,0 +1,159 @@
+.usersWrapperContent {
+    background-color: white;
+    border: 1px solid #D3D9DE;
+    border-radius: .5em;
+    width: 55.2em;
+}
+
+.usersWrapper {
+    padding: 2em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    overflow-y: scroll;
+    width: 104%;
+    height: 87vh;
+}
+
+.usersFriendsWrapper{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    width: 104%;
+    height: 87vh;
+}
+.usersFriendsWrapper h1{
+    color: #4D77A6;
+    font-weight: normal;
+    margin: 0 auto;
+    font-style: italic;
+}
+
+.usersPageNav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 2em 1em;
+}
+
+.usersPageNav a{
+    color: black;
+    font-size: 2em;
+}
+
+.activeLink:after{
+    display: block;
+    position: relative;
+    bottom: -1em;
+    content: "";
+    width: 100%;
+    height: .1em;
+    background-color: #4D77A6;
+}
+
+.usersPageHead:after{
+    display: block;
+    content: "";
+    width: 100%;
+    height: .1em;
+    background-color: #ECEDF0;
+}
+
+.userSection {
+    width: 16em;
+}
+
+.userSection img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 16em;
+    margin-bottom: 0.5em;
+    border-radius: .5em;
+}
+
+.userSection button {
+    background-color: inherit;
+    border: none;
+}
+
+.userSection button:hover {
+    cursor: pointer;
+}
+.userFriendSection{
+    display: flex;
+    justify-content: space-between;
+}
+.userFriendSection:after{
+    display: block;
+    content: "";
+    width: 100%;
+    height: 1px;
+    margin: 1em auto;
+    background-color: #ECEDF0;
+}
+
+.userFriendSection img {
+    display: inline-block;
+    object-fit: cover;
+    width: 10em;
+    height: 10em;
+    margin-bottom: 0.5em;
+    border-radius: 50%;
+}
+
+.userFriendSection button {
+    background-color: inherit;
+    border: none;
+}
+
+.userFriendSection button:hover {
+    cursor: pointer;
+}
+
+.userInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userInfo h2{
+    color: #4D77A6;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 8em;
+}
+
+.userInfo p{
+    color: #798FA4;
+    font-size: 1.4em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 8em;
+    max-height: 4em;
+}
+
+.userFriendInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1em;
+    width: 100%;
+}
+
+.userFriendInfo h2{
+    color: #4D77A6;
+    font-weight: bold;
+}
+
+.userFriendInfo p{
+    color: #798FA4;
+    font-size: 1.4em;
+}
+
+.userFollow{
+    color: green;
+}

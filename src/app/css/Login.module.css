@@ -1,0 +1,61 @@
+.loginPositionCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 32em;
+    background-color: white;
+    border: 1px solid #E7E8EC;
+    border-radius: .5em;
+    padding: 2.5em;
+}
+
+.loginFormElementColumn {
+    display: flex;
+    flex-flow: column;
+}
+
+.loginFormElementColumn input {
+    height: 2.3em;
+    border: 1px solid #D3D9DE;
+    border-radius: .2em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+}
+
+.loginFormElementColumn button {
+    height: 2.5em;
+    background-color: #5181B8;
+    color: white;
+    border: none;
+    border-radius: .2em;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+.checkbox input {
+    margin-right: 1em;
+    margin-bottom: 3px;
+}
+
+.formError {
+    color: red;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    font-style: italic;
+}
+.background{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #EDEEF0;
+    z-index: 2;
+}
